@@ -11,3 +11,8 @@ h1 {font-size:3em;
     text-align:center;
     text-transform:uppercase;
   }
+
+strong {text-transform:uppercase;
+      font-size:1.53em;
+      color:#33485e
+  }
