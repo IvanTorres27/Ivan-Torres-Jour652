@@ -54,13 +54,41 @@ h1 {font-size:1.5em;
 }
 
 .description {
-  margin-top: 10px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  margin-bottom: 10px;
+      margin-top: 10px;
+      margin-left: 0 auto;
+      margin-right: 0 auto;
+      margin-bottom: 10px;
 }
 
 .menu {
-  margin: 0 auto;
-  padding: 10px;
+      margin: 0 auto;
+      padding: 10px;
+      text-align:center;
+}
+
+.items {
+    display: inline;
+}
+
+#degrees {
+      margin-top: 5px;
+      margin-bottom: 0 auto;
+      margin-left: 0 auto;
+      margin-right: 0 auto;
+}
+
+#do {
+      margin-top: 5px;
+      margin-bottom: 0 auto;
+      margin-right: 0 auto;
+      margin-left: 0 auto;
+}
+
+.top {
+      width: 60%;
+      min-width: 300px;
+      margin-right: 0 auto;
+      margin-left: 0 auto;
+      margin-top : 0 auto;
+      margin-bottom: 30px; 
 }
