@@ -19,19 +19,20 @@ width: 20%;
 }
 
 .jobtitle {
-  padding: 2px;
+  padding: 1px;
 }
 
 .organization {
-  padding: 2px;
+  padding: 1px;
+  margin-top: 5px;
 }
 
 .date {
-  padding: 2px;
+  padding: 1px;
 }
 
 .description {
-  padding: 2px;
+  padding: 1px;
 }
 
 .sectiontitle {
@@ -40,6 +41,7 @@ width: 20%;
 
 .state{
   text-align: center;
+  width: 100%;
   color: #1AB8FF;
   font-size: 3em;
 }
