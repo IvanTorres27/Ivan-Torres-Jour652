@@ -1,0 +1,52 @@
+.container{
+      max-width:100%;
+      width: 100%;
+      margin:auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin bottom: auto;
+}
+
+body thick{
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.col-md-4 {
+float: right;
+width: 20%;
+
+}
+
+.jobtitle {
+  padding: 1px;
+}
+
+.organization {
+  padding: 1px;
+  margin-top: 5px;
+}
+
+.date {
+  padding: 1px;
+}
+
+.description {
+  padding: 1px;
+}
+
+.sectiontitle {
+  color: #1AB8FF;
+}
+
+.state{
+  text-align: center;
+  width: 100%;
+  color: #1AB8FF;
+  font-size: 3em;
+}
+
+.mission {
+  text-align: center;
+  font-weight: bold;
+}
