@@ -1,3 +1,4 @@
+
 <!doctype html>
 
 
@@ -19,36 +20,37 @@
  <body>
 
 
-    <!-- first graphic container-->
+
+   <!-- first graphic container-->
     <div class="graphic-container">
-      <h2>Where do school shootings occur?</h2>
-      <div id="schoolpayoutchart"></div>
-      <em>Source: Data collected by The Washington Post</em>
+      <h2>Public Opinion on Move </h2>
+      <div id="shooterRaceChart"></div>
+      <em>Source: Data collected by anonymous poll</em>
     </div>
-     <!-- END first graphic container-->
+    <!-- END first graphic container-->
+
 
     <!-- second graphic container-->
-      <div class="graphic-container">
-      <h2>Examining the carnage</h2>
-      <div id="opinionchart"></div>
+    <div class="graphic-container">
+      <h2>2018 Power 5 Conference Money Distribution (In Millions)</h2>
+      <div id="shootingsByTypeChart"></div>
       <em>Source: Data collected by The Washington Post</em>
     </div>
+     <!-- END second graphic container-->
 
-    <!-- END second graphic container-->
+
 
  <!-- c3 script-->
     <script type="text/javascript">
     //CHART 1
+
     var chart = c3.generate({
-    bindto: '#schoolpayoutchart',
+    bindto: '#shooterRaceChart',
     data: {
       // iris data from R
       columns: [
-        ['Big Ten', 51 mil],
-        ['SEC', 43 mil],
-        ['Big 12', 37 mil],
-        ['Pac 12', 32 mil],
-        ['ACC', 28 mil],
+        ['Agree', 5],
+        ['Disagree', 10],
       ],
       type : 'pie',
       onclick: function (d, i) { console.log("onclick", d, i); },
@@ -59,13 +61,27 @@
       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
     }
     });
+
+
     var chart2 = c3.generate({
-        bindto: '#opinionchart',
+        bindto: '#shootingsByTypeChart',
         data: {
           columns: [
-            ['Agree', 5],
-            ['Disagree', 10],
+            ['Big Ten', 51],
+            ['SEC', 43],
+            ['Big 12', 37],
+            ['Pac 12', 32],
+            ['ACC', 28],
           ],
+          type: 'bar'
+        },
+        color: {
+          pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+        }
+      });
+
+
+
 
  </script>
 
