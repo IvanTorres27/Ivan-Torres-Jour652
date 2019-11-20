@@ -1,0 +1,33 @@
+.headline {
+    font-weight: bold;
+    font-size:3em;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+.byline {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size:2em;
+}
+
+.chapter {
+    font-family: "Opens Sans";
+    font-size:3em;
+    text-align left;
+    font-weight: bold;
+}
+
+.caption {
+  font-size:1em;
+  text-align: center;
+  font-style: italic;
+}
+
+.body {
+  margin-bottom: 23px;
+}
+
+.body1 {
+  margin-top: 23px;
+}
