@@ -106,6 +106,31 @@ padding-bottom:
   font-size: 1em;
 }
 
+.stack-image {
+width:100%;
+max-width:900px;
+margin:0 auto;
+padding-top:30px;
+}
+
+.caption {
+ width:100%;
+ max-width:900px;
+ margin:0 auto;
+ padding-bottom:30px;
+ font-family: 'Montserrat', sans-serif;
+ color:#999;
+}
+
+.graphic-container {
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Montserrat', sans-serif;
+ margin:0 auto;
+}
+
 footer {
   height: 100px;
   background: #000000;

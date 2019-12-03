@@ -77,9 +77,19 @@
 
       <p class="body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est placerat in egestas erat. Eleifend mi in nulla posuere. Et ligula ullamcorper malesuada proin libero nunc consequat. Rhoncus est pellentesque elit ullamcorper. Ut venenatis tellus in metus vulputate eu scelerisque. Arcu non odio euismod lacinia at quis. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Dapibus ultrices in iaculis nunc sed. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Nunc congue nisi vitae suscipit tellus mauris. Nunc eget lorem dolor sed viverra ipsum. Iaculis eu non diam phasellus vestibulum lorem sed risus. </p>
 
-
+      <img src="alaina-petty.jpg" class="stack-image">
+      <p class="caption">Caption: Insert image or video above</p>
 
       <p class="body1"> Nunc lobortis mattis aliquam faucibus purus in massa tempor. Egestas quis ipsum suspendisse ultrices. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Proin nibh nisl condimentum id. Risus in hendrerit gravida rutrum quisque non. Purus in massa tempor nec. Volutpat consequat mauris nunc congue nisi vitae suscipit. Porttitor rhoncus dolor purus non enim. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Sed ullamcorper morbi tincidunt ornare. Mauris ultrices eros in cursus turpis. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Blandit massa enim nec dui nunc. Ultrices eros in cursus turpis massa tincidunt dui. Pellentesque nec nam aliquam sem et tortor consequat. Ultricies mi quis hendrerit dolor magna eget est. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Iaculis nunc sed augue lacus. Ut placerat orci nulla pellentesque. Sed turpis tincidunt id aliquet risus feugiat in ante metus. </p>
+
+      <!-- Graphic container-->
+<div class="graphic-container">
+  <h2>Shootings by year</h2>
+  <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+  <div id="shootingsByYearChart"></div>
+  <em>Source: Data collected by The Washington Post</em>
+</div>
+<!-- END graphic container-->
 
       <p class="body2"> Eros in cursus turpis massa tincidunt dui ut. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Gravida in fermentum et sollicitudin. Viverra mauris in aliquam sem fringilla ut morbi. Nibh tortor id aliquet lectus proin. Vel eros donec ac odio tempor orci. Semper feugiat nibh sed pulvinar proin gravida. Vestibulum rhoncus est pellentesque elit ullamcorper. Augue interdum velit euismod in pellentesque massa placerat duis ultricies. Faucibus vitae aliquet nec ullamcorper sit amet risus. Sed blandit libero volutpat sed cras ornare arcu dui. Sed velit dignissim sodales ut eu. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Bibendum enim facilisis gravida neque convallis a cras semper. Sed faucibus turpis in eu mi bibendum neque egestas. </p>
 
@@ -90,6 +100,25 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
+  <!-- c3 script-->
+  <script>
+  //CHART 1
+  var chart = c3.generate({
+   bindto: '#shootingsByYearChart',
+   data: {
+     x: 'x',
+     columns: [
+       ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+       ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+     ]
+   },
+   color: {
+     pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+   }
+  });
+
+
+       </script>
 
 
   <br><footer></br>
