@@ -2,3 +2,35 @@
 text-align:center;
 padding: 20px;
 }
+
+BODY {
+  font-family: 'PT Serif', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+.headline {
+  font-weight:700;
+  font-size:3em;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.byline{
+text-align: center;
+font-family: 'Montserrat';
+font-size:1.25em;
+}
+
+.intro {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  max-width: 800px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+  .body {
+    font-family: 'Montserrat'
+    font-size: 1em;
+  }
