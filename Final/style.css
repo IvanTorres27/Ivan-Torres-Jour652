@@ -18,19 +18,49 @@ font-family: 'Montserrat', sans-serif;
 .byline{
 text-align: center;
 font-family: 'Montserrat';
-font-size:1.25em;
+font-size:1.5em;
 }
 
 .intro {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.5em;
   max-width: 800px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
+.body1 {
+  font-family: 'Montserrat'
+  font-size: 1.5em;
+}
+
   .body {
     font-family: 'Montserrat'
-    font-size: 1em;
+    font-size: 1.25em;
   }
+
+.chapter {
+  font-family: 'Montserrat';
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.banner {
+  width:"10%;"
+  max-width:"1000px;"
+}
+
+ul.navbar-nav {
+ margin-left:50%;
+}
+
+.navbar {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.25em;
+ color: #FFD520;
+}
+
+.foot{
+  width: "80%;"
+}
