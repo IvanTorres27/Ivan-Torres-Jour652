@@ -31,8 +31,10 @@ font-size:1.5em;
 }
 
 .body1 {
+  text-align: center;
   font-family: 'Montserrat'
   font-size: 1.5em;
+  font-weight: bold;
 }
 
   .body {
@@ -44,6 +46,7 @@ font-size:1.5em;
   font-family: 'Montserrat';
   font-size: 2em;
   font-weight: bold;
+  color:#FFD520;
 }
 
 .banner {
@@ -64,3 +67,10 @@ ul.navbar-nav {
 .foot{
   width: "80%;"
 }
+
+footer {
+  height: 100px;
+  background: #FFD520;
+  text-align: center;
+  font-family: 'Montserrat';
+  color: #ffffff;
